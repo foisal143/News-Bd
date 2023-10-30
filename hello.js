@@ -81,6 +81,10 @@ https://newsapi.org/v2/everything?q=apple&from=2023-10-29&to=2023-10-29&sortBy=p
     showAppleData(data.articles, limit);
   } catch (er) {
     console.log(er);
+  } finally {
+    const res = await fetch(url);
+    const data = await res.json();
+    showAppleData(data.articles, limit);
   }
 };
 // show apple data
