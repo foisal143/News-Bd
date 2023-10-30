@@ -43,16 +43,16 @@ const showTeslaData = (data, limit) => {
     const stDate = new Date(fullDate).toString();
     const date = stDate.slice(0, 15);
     teslaContainer.innerHTML += `
-        <div class="flex  p-12 flex-col md:flex-row gap-12">
-          <div class="w-2/5 ">
+       <div class="flex  p-5 md:p-12 flex-col md:flex-row gap-12">
+          <div class="md:w-2/5 ">
             <img src="${urlToImage}" alt="">
             <div>
               <p><span class="font-semibold">Author:</span> ${author}</p>
               <p><span class="font-semibold">Published In:</span> ${date}</p>
             </div>
           </div>
-          <div class="px-12">
-            <h2 class="text-3xl font-semibold">Title: ${title}</h2>
+          <div class="md:px-12">
+            <h2 class="md:text-3xl font-semibold">Title: ${title}</h2>
             <p><span class="font-semibold font-2xl">Discription:</span> ${description}</p>
             <p class="my-5"><span class="font-semibold font-2xl ">Content:</span> ${content}</p>
             <p><span class="font-semibold font-2xl">Url:</span> <a href="${url}"> ${url} </a></p>
@@ -113,16 +113,16 @@ const showAppleData = (data, limit) => {
     const stDate = new Date(fullDate).toString();
     const date = stDate.slice(0, 15);
     teslaContainer.innerHTML += `
-        <div class="flex  p-12 flex-col md:flex-row gap-12">
-          <div class="w-2/5 ">
+       <div class="flex  p-5 md:p-12 flex-col md:flex-row gap-12">
+          <div class="md:w-2/5 ">
             <img src="${urlToImage}" alt="">
             <div>
               <p><span class="font-semibold">Author:</span> ${author}</p>
               <p><span class="font-semibold">Published In:</span> ${date}</p>
             </div>
           </div>
-          <div class="px-12">
-            <h2 class="text-3xl font-semibold">Title: ${title}</h2>
+          <div class="md:px-12">
+            <h2 class="md:text-3xl font-semibold">Title: ${title}</h2>
             <p><span class="font-semibold font-2xl">Discription:</span> ${description}</p>
             <p class="my-5"><span class="font-semibold font-2xl ">Content:</span> ${content}</p>
             <p><span class="font-semibold font-2xl">Url:</span> <a href="${url}"> ${url} </a></p>
@@ -182,16 +182,16 @@ const showUsData = (data, limit) => {
     const stDate = new Date(fullDate).toString();
     const date = stDate.slice(0, 15);
     teslaContainer.innerHTML += `
-        <div class="flex  p-12 flex-col md:flex-row gap-12">
-          <div class="w-2/5 ">
+       <div class="flex  p-5 md:p-12 flex-col md:flex-row gap-12">
+          <div class="md:w-2/5 ">
             <img src="${urlToImage}" alt="">
             <div>
               <p><span class="font-semibold">Author:</span> ${author}</p>
               <p><span class="font-semibold">Published In:</span> ${date}</p>
             </div>
           </div>
-          <div class="px-12">
-            <h2 class="text-3xl font-semibold">Title: ${title}</h2>
+          <div class="md:px-12">
+            <h2 class="md:text-3xl font-semibold">Title: ${title}</h2>
             <p><span class="font-semibold font-2xl">Discription:</span> ${description}</p>
             <p class="my-5"><span class="font-semibold font-2xl ">Content:</span> ${content}</p>
             <p><span class="font-semibold font-2xl">Url:</span> <a href="${url}"> ${url} </a></p>
@@ -251,16 +251,16 @@ const showWsData = (data, limit) => {
     const stDate = new Date(fullDate).toString();
     const date = stDate.slice(0, 15);
     teslaContainer.innerHTML += `
-        <div class="flex  p-12 flex-col md:flex-row gap-12">
-          <div class="w-2/5 ">
+        <div class="flex  p-5 md:p-12 flex-col md:flex-row gap-12">
+          <div class="md:w-2/5 ">
             <img src="${urlToImage}" alt="">
             <div>
               <p><span class="font-semibold">Author:</span> ${author}</p>
               <p><span class="font-semibold">Published In:</span> ${date}</p>
             </div>
           </div>
-          <div class="px-12">
-            <h2 class="text-3xl font-semibold">Title: ${title}</h2>
+          <div class="md:px-12">
+            <h2 class="md:text-3xl font-semibold">Title: ${title}</h2>
             <p><span class="font-semibold font-2xl">Discription:</span> ${description}</p>
             <p class="my-5"><span class="font-semibold font-2xl ">Content:</span> ${content}</p>
             <p><span class="font-semibold font-2xl">Url:</span> <a href="${url}"> ${url} </a></p>
