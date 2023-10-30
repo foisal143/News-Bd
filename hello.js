@@ -24,8 +24,8 @@ const commonData = (data, limit, container, loader, showBtn) => {
       author,
     } = element;
     const fullDate = new Date(publishedAt);
-    const stDate = new Date(fullDate).toString();
-    const date = stDate.slice(0, 15);
+    const date = new Date(fullDate).toString();
+    // const date = stDate.slice(0, 15);
     teslaContainer.innerHTML += `
         <div class="flex  p-5 md:p-12 flex-col md:flex-row gap-12">
           <div class="md:w-2/5 ">
